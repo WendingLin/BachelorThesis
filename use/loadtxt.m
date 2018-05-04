@@ -1,5 +1,6 @@
 clear;
 tic;
+#dir not true
 file_9 = dir('*1300.txt');
 
 len = length(file_9);
