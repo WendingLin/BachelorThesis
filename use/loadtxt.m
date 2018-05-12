@@ -1,7 +1,7 @@
 clear;
 tic;
 
-file_9 = dir('*1300.txt');
+file_9 = dir('L:\毕业设计\BachelorThesis\data\*1300.txt');
 
 len = length(file_9);
 
@@ -50,7 +50,9 @@ end
 % 差分方法
 % z = laplace(LTdata, LAdata);
 % 小波方法
-z =wavelets(LTdata, LAdata);
+%z =wavelets(LTdata, LAdata);
+% 小波差分方法
+z =waveletlap(LTdata, LAdata);
 % avg_data = avg_data / 21;
 rank = tabulate(z(:));
 
@@ -58,4 +60,6 @@ total = rank(2:size(rank(:,1)) ,2);
 bar(total)
 %plot(M);
 dateaxis('x',6,'08/13');
+xlabel('日期');
+ylabel('可能性');
 toc;
