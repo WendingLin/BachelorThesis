@@ -1,4 +1,4 @@
-file_all = dir('*.txt');
+file_all = dir('L:\毕业设计\BachelorThesis\data\*.txt');
 
 total_data = zeros(48, 24);
 
@@ -17,4 +17,7 @@ for i = 1 : 48
 end;
 
 surf(total_data);
+xlabel('小时');
+ylabel('日期');
+zlabel('定位终端数');
 dateaxis('y',6,'08/13');
