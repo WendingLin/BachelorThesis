@@ -1,12 +1,16 @@
 
 clear;
-file_all = dir('L:\毕业设计\BachelorThesis\data\2017-09-30*.txt');
+file_all = dir('L:\毕业设计\BachelorThesis\data\*1300.txt');
 data1 = zeros(113, 150);
 data2 = zeros(113, 150);
-data1 = load(file_all(1, 1).name);
-data2 = load(file_all(2, 1).name);
+data1 = load(file_all(30, 1).name);
+data2 = load(file_all(48, 1).name);
  
+
 data = abs(data1-data2);
+
+
+
 WIN_VAL = 8;
 size_1 = 0;
 pos_x_1 = 1;
@@ -71,7 +75,13 @@ end
 
 imagesc(data)
 hold on;
-rectangle('Position',[pos_x_1,pos_y_1,size_1-1, size_1-1],'EdgeColor','r', 'LineWidth',3)
-rectangle('Position',[pos_x_2,pos_y_2,size_2-1, size_2-1],'EdgeColor','r','LineWidth',3)
-rectangle('Position',[pos_x_3,pos_y_3,size_3-1, size_3-1],'EdgeColor','r','LineWidth',3)
+% if max_val_1 > 100
+%     rectangle('Position',[pos_x_1,pos_y_1,size_1-1, size_1-1],'EdgeColor','r', 'LineWidth',3);
+%     if max_val_2 >100
+%         rectangle('Position',[pos_x_2,pos_y_2,size_2-1, size_2-1],'EdgeColor','r','LineWidth',3)
+%         if max_val_3 >100
+%             rectangle('Position',[pos_x_3,pos_y_3,size_3-1, size_3-1],'EdgeColor','r','LineWidth',3)
+%         end
+%     end
+% end
 %imagesc(data(pos_y:pos_y+19,:pos_x+19));

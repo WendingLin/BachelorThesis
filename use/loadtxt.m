@@ -23,7 +23,7 @@ for n=1:len
     
 %     读取某一范围内数据
     
-    M(n,1) = mean(mean(temp(40:80,50:90)));
+     M(n,1) = mean(mean(temp(40:80,50:90)));
 
 %     判断有多少数据的平均没大于5（可以被忽略，数据总量为113*150=16950）
     
@@ -46,22 +46,22 @@ for i = 1:113
 end
 
 % 3
-%z = oneoutlier(LTdata, LAdata);
+% z = oneoutlier(LTdata, LAdata);
 % 差分方法
-% z = laplace(LTdata, LAdata);
+%  z = laplace(LTdata, LAdata);
 % 小波差分
-%z =wavelets(LTdata, LAdata);
+% z =wavelets(LTdata, LAdata);
 % 小波方法
 % z =waveletlap(LTdata, LAdata);
 % LOF方法
 % z = lof(LTdata, LAdata);
-% avg_data = avg_data / 21;
+% % avg_data = avg_data / 21;
 % rank = tabulate(z(:));
-% 
+% % 
 % total = rank(2:size(rank(:,1)) ,2);
 % bar(total)
-% %plot(M);
+% % plot(M);
 % dateaxis('x',6,'08/13');
 % xlabel('日期');
 % ylabel('可能性');
-toc;
+% toc;

@@ -51,13 +51,11 @@ for n=1:length(file_24_1)
     
 end;
 
-plot(M_1);
-hold on 
-plot(M_2);
-plot(M_3);
-plot(M_4);
-plot(M_5);
-plot(M_6);
+% plot(M_3);
+% hold on 
+% plot(M_2);
+% plot(M_1);
+% plot(M_4);
+% plot(M_5);
+% plot(M_6);
 plot(M_7);
-xlabel('日期');
-ylabel('可能性');
