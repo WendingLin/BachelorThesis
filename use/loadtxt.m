@@ -50,18 +50,18 @@ end
 % 差分方法
 %  z = laplace(LTdata, LAdata);
 % 小波差分
-% z =wavelets(LTdata, LAdata);
+ z =wavelets(LTdata, LAdata);
 % 小波方法
 % z =waveletlap(LTdata, LAdata);
 % LOF方法
 % z = lof(LTdata, LAdata);
-% % avg_data = avg_data / 21;
-% rank = tabulate(z(:));
-% % 
-% total = rank(2:size(rank(:,1)) ,2);
-% bar(total)
-% % plot(M);
-% dateaxis('x',6,'08/13');
-% xlabel('日期');
-% ylabel('可能性');
-% toc;
+avg_data = avg_data / 21;
+rank = tabulate(z(:));
+
+total = rank(2:size(rank(:,1)) ,2);
+bar(total)
+% plot(M);
+dateaxis('x',6,'08/13');
+xlabel('日期');
+ylabel('可能性');
+toc;
