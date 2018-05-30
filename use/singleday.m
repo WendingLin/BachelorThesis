@@ -55,6 +55,7 @@ end;
 % hold on 
 % plot(M_2);
  plot(M_1);
+ hold on
 % plot(M_4);
 % plot(M_5);
 % plot(M_6);
