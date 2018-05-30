@@ -1,10 +1,10 @@
-file_24_1=dir('L:\毕业设计\BachelorThesis\data\2017-09-11*');
+file_24_1=dir('L:\毕业设计\BachelorThesis\data\2017-08-16*');
 file_24_2=dir('L:\毕业设计\BachelorThesis\data\2017-09-12*');
 file_24_3=dir('L:\毕业设计\BachelorThesis\data\2017-09-13*');
-file_24_4=dir('L:\毕业设计\BachelorThesis\data\2017-09-14*');
+file_24_4=dir('L:\毕业设计\BachelorThesis\data\2017-08-14*');
 file_24_5=dir('L:\毕业设计\BachelorThesis\data\2017-09-15*');
 file_24_6=dir('L:\毕业设计\BachelorThesis\data\2017-09-16*');
-file_24_7=dir('L:\毕业设计\BachelorThesis\data\2017-09-17*');
+file_24_7=dir('L:\毕业设计\BachelorThesis\data\2017-08-23*');
 
 
 LTdata_1 = zeros(113, 150, 24);
@@ -54,7 +54,7 @@ end;
 % plot(M_3);
 % hold on 
 % plot(M_2);
-% plot(M_1);
+ plot(M_1);
 % plot(M_4);
 % plot(M_5);
 % plot(M_6);
