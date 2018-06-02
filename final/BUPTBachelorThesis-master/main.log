@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  27 MAY 2018 21:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  31 MAY 2018 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1752,18 +1752,8 @@ File: ppxetex.def 2017/01/14 v0.5h Pdfpages driver for XeTeX (AM)
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
 \l__xeCJK_listings_max_char_int=\count288
 \l__xeCJK_listings_flag_int=\count289
-) (./main.aux
-(./abstract.aux)
-
-LaTeX Warning: Label `crowdwisdom' multiply defined.
-
-
-LaTeX Warning: Label `autoencoder' multiply defined.
-
-
-LaTeX Warning: Label `PCA_goal' multiply defined.
-
 )
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -1784,7 +1774,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 9.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 9.
- (s:/TEX/texmf-dist/tex/latex/tipa/t3cmr.fd
+(s:/TEX/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
@@ -1936,10 +1926,12 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
- (./main.out)
-(./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
@@ -1947,7 +1939,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count291
- (s:/TEX/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(s:/TEX/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
 (s:/TEX/texmf-dist/tex/latex/graphics/lscape.sty
@@ -2082,45 +2074,57 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [1
 
-]) (./main.toc [1
+])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [1
 \FN@pp@footnotehinttrue 
 
 
 
-] [2])
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [3]
+]
 Chapter 1.
+
+Package natbib Warning: Citation `webster_social_media' on page 1 undefined on 
+input line 47.
+
+
+Package natbib Warning: Citation `false_news_spread_2018' on page 1 undefined o
+n input line 49.
+
+
+Package natbib Warning: Citation `周兴2017基于深度学习的谣言检测及模式挖掘' on page 1 undefined o
+n input line 53.
+
+
+Package natbib Warning: Citation `pew_news_use_2017' on page 1 undefined on inp
+ut line 77.
+
+
+Package natbib Warning: Citation `internet_news_2016' on page 1 undefined on in
+put line 77.
+
 [1
 
 
-] [2] [3] [4]
-Chapter 2.
-[5
-
-] [6] [7]
-Chapter 3.
-[8
-
-] [9] [10]
-Chapter 4.
-[11
-
-] [12] [13]
-Chapter 5.
-[14
-
-] [15]
-Chapter 6.
-[16
-
 ]
-Chapter 7.
-[17
 
-] [18]
+Package natbib Warning: Citation `唐绪军2013中国新媒体发展报告' on page 2 undefined on inpu
+t line 79.
+
+
+Package natbib Warning: Citation `唐绪军2015中国新媒体发展报告' on page 2 undefined on inpu
+t line 79.
+
+
+Package natbib Warning: Citation `周兴2017基于深度学习的谣言检测及模式挖掘' on page 2 undefined o
+n input line 81.
+
+
+LaTeX Warning: Reference `crowdwisdom_TMP' on page 2 undefined on input line 84
+.
+
 \g__fontspec_family_KaiTi_int=\count293
 .................................................
 . fontspec info: "no-font-shape"
@@ -2151,21 +2155,58 @@ Chapter 7.
 . <->"KaiTi/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
+
+LaTeX Warning: Reference `complexcrowdwisdom_TMP' on page 2 undefined on input 
+line 97.
+
+
+LaTeX Warning: Reference `autoencoder' on page 2 undefined on input line 119.
+
+File: pictures/autoencoder.png Graphic file (type QTm)
+<use  "pictures/autoencoder.png" >
 File: pictures/autoencoder.png Graphic file (type QTm)
  <use  "pictures/autoencoder.png" >
 File: pictures/autoencoder.png Graphic file (type QTm)
 
 <use  "pictures/autoencoder.png" >
-File: pictures/autoencoder.png Graphic file (type QTm)
- <use  "pictures/autoencoder.png" > [19]
-[20] [21]
+
+LaTeX Warning: Reference `sub@Fig:R1' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Reference `sub@Fig:R2' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Reference `sub@Fig:R1' on page 2 undefined on input line 136.
+
+
+LaTeX Warning: Reference `sub@Fig:R2' on page 2 undefined on input line 136.
+
+[2] [3]
+
+Package natbib Warning: Citation `Goodfellow2016DeepLearning' on page 4 undefin
+ed on input line 148.
+
+
+LaTeX Warning: Reference `PCA_goal_TMP' on page 4 undefined on input line 178.
+
+[4]
+
+LaTeX Warning: Reference `PCA_algorithm' on page 5 undefined on input line 183.
+
+
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 383.
- (s:/TEX/texmf-dist/tex/latex/listings/lstlang1.sty
+put line 186.
+
+LaTeX Warning: Reference `PCA_model' on page 5 undefined on input line 201.
+
+
+LaTeX Warning: Reference `plus' on page 5 undefined on input line 224.
+
+(s:/TEX/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 423.
+nput line 226.
 \g__fontspec_family_FangSong_int=\count294
 .................................................
 . fontspec info: "no-font-shape"
@@ -2197,8 +2238,7 @@ nput line 423.
 . <->"FangSong/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
- [22] [23]
-(./main.bbl
+ [5] [6] (./main.bbl
 Underfull \hbox (badness 2903) in paragraph at lines 5--9
 []\TU/TimesNewRoman(0)/m/n/10.53937 Merriam-Webster. Social Media [EB/OL]. 2018
  [2018-04-15]. [][]$[][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][
@@ -2211,39 +2251,41 @@ Underfull \hbox (badness 1902) in paragraph at lines 11--15
 spread of true and false news online [J]. Sci-
  []
 
-) [24
+) [7
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 21.07874pt
-(hyperref)                replaced by space on input line 459.
+(hyperref)                replaced by space on input line 262.
 
-[25
+[8
 
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 24.09pt
-(hyperref)                replaced by space on input line 472.
+(hyperref)                replaced by space on input line 275.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 475.
+(hyperref)                replaced by space on input line 278.
 
 File: pictures/autoencoder.png Graphic file (type QTm)
-<use  "pictures/autoencoder.png" >
+<use  "pictures/autoencoder.png" > [9
+
+]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 497.
+(hyperref)                replaced by space on input line 319.
 
-[26
+[10
 
-] [27]
+]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf" >
 File: docs/translation.pdf Graphic file (type QTm)
@@ -2253,7 +2295,7 @@ File: docs/translation.pdf Graphic file (type QTm)
 <use  "docs/translation.pdf"  page1>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page1>
-[28
+[11
 
 
 ]
@@ -2263,7 +2305,7 @@ File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page1>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page1> [29]
+<use  "docs/translation.pdf"  page1> [12]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf" >
 File: docs/translation.pdf Graphic file (type QTm)
@@ -2281,14 +2323,14 @@ File: docs/translation.pdf Graphic file (type QTm)
 <use  "docs/translation.pdf"  page2>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page2>
-[30]
+[13]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page3>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page3>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page3> [31]
+<use  "docs/translation.pdf"  page3> [14]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page4>
 File: docs/translation.pdf Graphic file (type QTm)
@@ -2296,14 +2338,14 @@ File: docs/translation.pdf Graphic file (type QTm)
 <use  "docs/translation.pdf"  page4>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page4>
-[32]
+[15]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page5>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page5>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page5> [33]
+<use  "docs/translation.pdf"  page5> [16]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page6>
 File: docs/translation.pdf Graphic file (type QTm)
@@ -2311,7 +2353,7 @@ File: docs/translation.pdf Graphic file (type QTm)
 <use  "docs/translation.pdf"  page6>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page6>
-[34]
+[17]
 File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf" >
 File: docs/openingReport.pdf Graphic file (type QTm)
@@ -2328,7 +2370,7 @@ File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf"  page1>
 File: docs/openingReport.pdf Graphic file (type QTm)
 
-<use  "docs/openingReport.pdf"  page1> [35]
+<use  "docs/openingReport.pdf"  page1> [18]
 File: docs/openingReport.pdf Graphic file (type QTm)
 
 <use  "docs/openingReport.pdf"  page2>
@@ -2336,7 +2378,7 @@ File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf"  page2>
 File: docs/openingReport.pdf Graphic file (type QTm)
 
-<use  "docs/openingReport.pdf"  page2> [36]
+<use  "docs/openingReport.pdf"  page2> [19]
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf" >
 File: docs/interimReport.pdf Graphic file (type QTm)
@@ -2354,7 +2396,7 @@ File: docs/interimReport.pdf Graphic file (type QTm)
 <use  "docs/interimReport.pdf"  page1>
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page1>
-[37]
+[20]
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page2>
 File: docs/interimReport.pdf Graphic file (type QTm)
@@ -2362,30 +2404,36 @@ File: docs/interimReport.pdf Graphic file (type QTm)
 <use  "docs/interimReport.pdf"  page2>
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page2>
-[38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 548.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 548.
- (./main.aux (./abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 548.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 548.
+[21]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 381.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 381.
+(./main.aux (./abstract.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 381.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 381.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 548.
- )
-(\end occurred inside a group at level 2)
 
-### simple group (level 2) entered at line 122 ({)
-### simple group (level 1) entered at line 121 ({)
-### bottom level 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 381.
+ ) 
 Here is how much of TeX's memory you used:
- 33312 strings out of 493005
- 620737 string characters out of 6141736
- 793323 words of memory out of 5000000
- 36805 multiletter control sequences out of 15000+600000
- 21345 words of font info for 133 fonts, out of 8000000 for 9000
+ 33232 strings out of 493005
+ 616997 string characters out of 6141736
+ 781126 words of memory out of 5000000
+ 36734 multiletter control sequences out of 15000+600000
+ 21353 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,19n,93p,10451b,1507s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,93p,10451b,1203s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (48 pages).
+Output written on main.pdf (29 pages).
