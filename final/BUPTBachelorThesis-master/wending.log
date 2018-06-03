@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  2 JUN 2018 11:05
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  3 JUN 2018 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1770,21 +1770,6 @@ LaTeX Warning: Label `sub@Fig:R2' multiply defined.
 LaTeX Warning: Label `Fig:didi' multiply defined.
 
 
-LaTeX Warning: Label `autoencoder' multiply defined.
-
-
-LaTeX Warning: Label `Fig:R1' multiply defined.
-
-
-LaTeX Warning: Label `sub@Fig:R1' multiply defined.
-
-
-LaTeX Warning: Label `Fig:R2' multiply defined.
-
-
-LaTeX Warning: Label `sub@Fig:R2' multiply defined.
-
-
 LaTeX Warning: Label `crowdwisdom' multiply defined.
 
 
@@ -2022,39 +2007,29 @@ File: docs/task.pdf Graphic file (type QTm)
 <use  "docs/task.pdf"  page1>
 File: docs/task.pdf Graphic file (type QTm)
  <use  "docs/task.pdf"  page1> [2]
-File: docs/scoreTable.pdf Graphic file (type QTm)
+File: docs/scoreTable1.pdf Graphic file (type QTm)
 
-<use  "docs/scoreTable.pdf" >
-File: docs/scoreTable.pdf Graphic file (type QTm)
- <use  "docs/scoreTable.pdf" >
-File: docs/scoreTable.pdf Graphic file (type QTm)
+<use  "docs/scoreTable1.pdf" >
+File: docs/scoreTable1.pdf Graphic file (type QTm)
+ <use  "docs/scoreTable1.pdf" >
+File: docs/scoreTable1.pdf Graphic file (type QTm)
 
-<use  "docs/scoreTable.pdf"  page1>
-File: docs/scoreTable.pdf Graphic file (type QTm)
- <use  "docs/scoreTable.pdf"  page1>
-File: docs/scoreTable.pdf Graphic file (type QTm)
+<use  "docs/scoreTable1.pdf"  page1>
+File: docs/scoreTable1.pdf Graphic file (type QTm)
+ <use  "docs/scoreTable1.pdf"  page1>
+File: docs/scoreTable1.pdf Graphic file (type QTm)
 
-<use  "docs/scoreTable.pdf"  page1>
-File: docs/scoreTable.pdf Graphic file (type QTm)
- <use  "docs/scoreTable.pdf"  page1>
-File: docs/scoreTable.pdf Graphic file (type QTm)
+<use  "docs/scoreTable1.pdf"  page1>
+File: docs/scoreTable1.pdf Graphic file (type QTm)
+ <use  "docs/scoreTable1.pdf"  page1>
+File: docs/scoreTable1.pdf Graphic file (type QTm)
 
-<use  "docs/scoreTable.pdf"  page1> [3]
-File: docs/scoreTable.pdf Graphic file (type QTm)
- <use  "docs/scoreTable.pdf"  page2>
-File: docs/scoreTable.pdf Graphic file (type QTm)
-
-<use  "docs/scoreTable.pdf"  page2>
-File: docs/scoreTable.pdf Graphic file (type QTm)
- <use  "docs/scoreTable.pdf"  page2>
-[4]
-File: docs/statement.pdf Graphic file (type QTm)
- <use  "docs/statement.pdf" >
+<use  "docs/scoreTable1.pdf"  page1> [3]
 File: docs/statement.pdf Graphic file (type QTm)
  <use  "docs/statement.pdf" >
 File: docs/statement.pdf Graphic file (type QTm)
 
-<use  "docs/statement.pdf"  page1>
+<use  "docs/statement.pdf" >
 File: docs/statement.pdf Graphic file (type QTm)
  <use  "docs/statement.pdf"  page1>
 File: docs/statement.pdf Graphic file (type QTm)
@@ -2064,11 +2039,13 @@ File: docs/statement.pdf Graphic file (type QTm)
  <use  "docs/statement.pdf"  page1>
 File: docs/statement.pdf Graphic file (type QTm)
 
-<use  "docs/statement.pdf"  page1> [5] (./main.cfg)
+<use  "docs/statement.pdf"  page1>
+File: docs/statement.pdf Graphic file (type QTm)
+ <use  "docs/statement.pdf"  page1> [4]
+(./main.cfg)
 \openout2 = `abstract.aux'.
 
- (./abstract.tex
-(./abstract.cfg)
+ (./abstract.tex (./abstract.cfg)
 \g__fontspec_family_SimHei_int=\count292
 .................................................
 . fontspec info: "no-font-shape"
@@ -2100,7 +2077,8 @@ File: docs/statement.pdf Graphic file (type QTm)
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 LaTeX Font Info:    Try loading font information for U+msa on input line 28.
- (s:/TEX/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(s:/TEX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 28.
@@ -2121,7 +2099,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `wending.toc'.
 
- [2] [3]
+ [2]
 Chapter 1.
 
 LaTeX Warning: Reference `didi' on page 1 undefined on input line 49.
@@ -2172,12 +2150,21 @@ File: pictures/1classification.jpg Graphic file (type QTm)
 Chapter 2.
 [7
 
-] [8] [9] [10]
+] [8]
+File: pictures/2wavelet.jpg Graphic file (type QTm)
+ <use  "pictures/2wavelet.jpg" >
+File: pictures/2LOF1.jpg Graphic file (type QTm)
+ <use  "pictures/2LOF1.jpg" > [9]
+File: pictures/2LOF2.jpg Graphic file (type QTm)
+
+<use  "pictures/2LOF2.jpg" >
+File: pictures/2LOF3.jpg Graphic file (type QTm)
+ <use  "pictures/2LOF3.jpg" > [10] [11] [12]
 Chapter 3.
 File: pictures/3geotiff.jpg Graphic file (type QTm)
 <use  "pictures/3geotiff.jpg" >
 File: pictures/3matreal.jpg Graphic file (type QTm)
- <use  "pictures/3matreal.jpg" > [11
+ <use  "pictures/3matreal.jpg" > [13
 
 ]
 File: pictures/3singleday.jpg Graphic file (type QTm)
@@ -2187,56 +2174,66 @@ File: pictures/3week.jpg Graphic file (type QTm)
  <use  "pictures/3week.jpg" >
 File: pictures/3normaltyp.jpg Graphic file (type QTm)
 
-<use  "pictures/3normaltyp.jpg" > [12] [13]
+<use  "pictures/3normaltyp.jpg" > [14] [15]
 File: pictures/3allday.jpg Graphic file (type QTm)
  <use  "pictures/3allday.jpg" >
 File: pictures/3total.jpg Graphic file (type QTm)
 
-<use  "pictures/3total.jpg" > [14]
+<use  "pictures/3total.jpg" > [16]
 File: pictures/3pre.jpg Graphic file (type QTm)
- <use  "pictures/3pre.jpg" > [15] [16]
+ <use  "pictures/3pre.jpg" > [17] [18]
 Chapter 4.
 File: pictures/4laplace.jpg Graphic file (type QTm)
-<use  "pictures/4laplace.jpg" > [17
+<use  "pictures/4laplace.jpg" > [19
 
 ]
 File: pictures/4wave.jpg Graphic file (type QTm)
- <use  "pictures/4wave.jpg" > [18]
+ <use  "pictures/4wave.jpg" > [20]
 File: pictures/4wavelet.jpg Graphic file (type QTm)
 
-<use  "pictures/4wavelet.jpg" > [19]
+<use  "pictures/4wavelet.jpg" >
 
-LaTeX Warning: Reference `4统计' on page 20 undefined on input line 315.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 354.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 354.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 354.
+
+[21]
 File: pictures/4like.jpg Graphic file (type QTm)
-<use  "pictures/4like.jpg" > [20]
+ <use  "pictures/4like.jpg" > [22]
 File: pictures/4LOF.jpg Graphic file (type QTm)
  <use  "pictures/4LOF.jpg" >
 File: pictures/4compa.jpg Graphic file (type QTm)
 
-<use  "pictures/4compa.jpg" > [21]
+<use  "pictures/4compa.jpg" > [23]
 File: pictures/4spec.jpg Graphic file (type QTm)
- <use  "pictures/4spec.jpg" > [22]
+ <use  "pictures/4spec.jpg" > [24] [25]
 Chapter 5.
 File: pictures/5proce.jpg Graphic file (type QTm)
-<use  "pictures/5proce.jpg" > [23
+<use  "pictures/5proce.jpg" > [26
 
 ]
 File: pictures/5CNN.jpg Graphic file (type QTm)
- <use  "pictures/5CNN.jpg" > [24]
+ <use  "pictures/5CNN.jpg" > [27]
 File: pictures/5RNN.jpg Graphic file (type QTm)
 
-<use  "pictures/5RNN.jpg" > [25]
+<use  "pictures/5RNN.jpg" > [28]
 File: pictures/5MAT.jpg Graphic file (type QTm)
  <use  "pictures/5MAT.jpg" >
 File: pictures/5network.jpg Graphic file (type QTm)
 
-<use  "pictures/5network.jpg" > [26]
+<use  "pictures/5network.jpg" > [29]
 File: pictures/5error.jpg Graphic file (type QTm)
  <use  "pictures/5error.jpg" >
 File: pictures/5typ.jpg Graphic file (type QTm)
 
-<use  "pictures/5typ.jpg" > [27]
+<use  "pictures/5typ.jpg" > [30]
 Chapter 6.
 File: pictures/6lap1.jpg Graphic file (type QTm)
 <use  "pictures/6lap1.jpg" >
@@ -2246,111 +2243,64 @@ File: pictures/6lap2.jpg Graphic file (type QTm)
 
 <use  "pictures/6lap2.jpg" >
 File: pictures/6normal.jpg Graphic file (type QTm)
- <use  "pictures/6normal.jpg" > [28
+ <use  "pictures/6normal.jpg" > [31
 
 ]
 File: pictures/6errorwithout.jpg Graphic file (type QTm)
 
 <use  "pictures/6errorwithout.jpg" >
 File: pictures/6error.jpg Graphic file (type QTm)
- <use  "pictures/6error.jpg" > [29]
-[30] [31]
+ <use  "pictures/6error.jpg" > [32]
+[33] [34]
 Chapter 7.
-[32
+[35
 
 ]
 
-Package natbib Warning: Citation `webster_social_media' on page 33 undefined on
- input line 459.
-
-[33]
-
-Package natbib Warning: Citation `false_news_spread_2018' on page 34 undefined 
-on input line 461.
-
-
-Package natbib Warning: Citation `周兴2017基于深度学习的谣言检测及模式挖掘' on page 34 undefined 
-on input line 465.
-
-
-Package natbib Warning: Citation `pew_news_use_2017' on page 34 undefined on in
-put line 489.
-
-
-Package natbib Warning: Citation `internet_news_2016' on page 34 undefined on i
-nput line 489.
-
-
-Package natbib Warning: Citation `唐绪军2013中国新媒体发展报告' on page 34 undefined on inp
-ut line 491.
-
-
-Package natbib Warning: Citation `唐绪军2015中国新媒体发展报告' on page 34 undefined on inp
-ut line 491.
-
-
-Package natbib Warning: Citation `周兴2017基于深度学习的谣言检测及模式挖掘' on page 34 undefined 
-on input line 493.
-
-[34]
-File: pictures/autoencoder.png Graphic file (type QTm)
- <use  "pictures/autoencoder.png" >
-File: pictures/autoencoder.png Graphic file (type QTm)
- <use  "pictures/autoencoder.png" >
-File: pictures/autoencoder.png Graphic file (type QTm)
-
-<use  "pictures/autoencoder.png" > [35]
-
-Package natbib Warning: Citation `Goodfellow2016DeepLearning' on page 36 undefi
-ned on input line 537.
+Package natbib Warning: Citation `webster_social_media' on page 36 undefined on
+ input line 518.
 
 [36]
+
+Package natbib Warning: Citation `false_news_spread_2018' on page 37 undefined 
+on input line 520.
+
+
+Package natbib Warning: Citation `pew_news_use_2017' on page 37 undefined on in
+put line 525.
+
+
+Package natbib Warning: Citation `internet_news_2016' on page 37 undefined on i
+nput line 525.
+
+
+Package natbib Warning: Citation `唐绪军2013中国新媒体发展报告' on page 37 undefined on inp
+ut line 527.
+
+
+Package natbib Warning: Citation `唐绪军2015中国新媒体发展报告' on page 37 undefined on inp
+ut line 527.
+
+
+Package natbib Warning: Citation `周兴2017基于深度学习的谣言检测及模式挖掘' on page 37 undefined 
+on input line 529.
+
+[37]
+
+Package natbib Warning: Citation `Goodfellow2016DeepLearning' on page 38 undefi
+ned on input line 553.
+
+[38]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 575.
- [37] (s:/TEX/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 615.
-\g__fontspec_family_FangSong_int=\count294
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "FangSong/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'FangSong(0)' created for font 'FangSong' with options
-. [Script={CJK},AutoFakeBold={4}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->"FangSong/OT:script=hani;language=DFLT;embolden=4;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-.................................................
- [38]
+put line 591.
+ [39] [40]
 No file wending.bbl.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 21.07874pt
-(hyperref)                replaced by space on input line 651.
+(hyperref)                replaced by space on input line 660.
 
-[39
+[41
 
 
 
@@ -2358,50 +2308,100 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 24.09pt
-(hyperref)                replaced by space on input line 664.
+(hyperref)                replaced by space on input line 673.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 667.
+(hyperref)                replaced by space on input line 676.
 
 File: pictures/autoencoder.png Graphic file (type QTm)
 <use  "pictures/autoencoder.png" >
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 689.
+(hyperref)                replaced by space on input line 698.
 
-[40
-
-] [41]
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf" >
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf" >
-File: docs/translation.pdf Graphic file (type QTm)
-
-<use  "docs/translation.pdf"  page1>
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page1>
 [42
+
+] [43] [44
 
 
 ]
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page1>
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page1>
-File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page1> [43]
+LaTeX Warning: Reference `f1' on page 45 undefined on input line 755.
+
+File: pictures/f1.jpg Graphic file (type QTm)
+<use  "pictures/f1.jpg" > [45] [46] [47] [48]
+Overfull \hbox (5.78122pt too wide) in paragraph at lines 836--849
+ [][] 
+ []
+
+[49]
+File: pictures/f2.jpg Graphic file (type QTm)
+ <use  "pictures/f2.jpg" >
+
+LaTeX Warning: Reference `t2' on page 50 undefined on input line 863.
+
+
+LaTeX Warning: Reference `t3' on page 50 undefined on input line 863.
+
+[50]
+Overfull \hbox (626.35739pt too wide) in paragraph at lines 866--878
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `f3' on page 51 undefined on input line 896.
+
+File: pictures/f3.jpg Graphic file (type QTm)
+<use  "pictures/f3.jpg" >
+
+LaTeX Warning: Reference `f4' on page 51 undefined on input line 901.
+
+[51]
+File: pictures/f4.jpg Graphic file (type QTm)
+ <use  "pictures/f4.jpg" >
+
+LaTeX Warning: Reference `t4' on page 52 undefined on input line 906.
+
+
+Overfull \hbox (206.1881pt too wide) in paragraph at lines 909--921
+ [][] 
+ []
+
+
+LaTeX Warning: Reference `f5' on page 52 undefined on input line 923.
+
+File: pictures/f5.jpg Graphic file (type QTm)
+<use  "pictures/f5.jpg" > [52]
+
+LaTeX Warning: Reference `t1' on page 53 undefined on input line 933.
+
+File: pictures/f6.jpg Graphic file (type QTm)
+<use  "pictures/f6.jpg" > [53] [54]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf" >
 File: docs/translation.pdf Graphic file (type QTm)
 
 <use  "docs/translation.pdf" >
 File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page2>
+ <use  "docs/translation.pdf"  page1>
+File: docs/translation.pdf Graphic file (type QTm)
+
+<use  "docs/translation.pdf"  page1> [55]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page1>
+File: docs/translation.pdf Graphic file (type QTm)
+
+<use  "docs/translation.pdf"  page1>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page1>
+[56]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf" >
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf" >
 File: docs/translation.pdf Graphic file (type QTm)
 
 <use  "docs/translation.pdf"  page2>
@@ -2412,37 +2412,62 @@ File: docs/translation.pdf Graphic file (type QTm)
 <use  "docs/translation.pdf"  page2>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page2>
-[44]
 File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page3>
+
+<use  "docs/translation.pdf"  page2> [57]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page3>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page3> [45]
+<use  "docs/translation.pdf"  page3>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page3>
+[58]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page4>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page4>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page4>
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page4>
-[46]
-File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page5>
+<use  "docs/translation.pdf"  page4> [59]
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page5>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page5> [47]
+<use  "docs/translation.pdf"  page5>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page5>
+[60]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page6>
 File: docs/translation.pdf Graphic file (type QTm)
  <use  "docs/translation.pdf"  page6>
 File: docs/translation.pdf Graphic file (type QTm)
 
-<use  "docs/translation.pdf"  page6>
+<use  "docs/translation.pdf"  page6> [61]
 File: docs/translation.pdf Graphic file (type QTm)
- <use  "docs/translation.pdf"  page6>
-[48]
+ <use  "docs/translation.pdf"  page7>
+File: docs/translation.pdf Graphic file (type QTm)
+
+<use  "docs/translation.pdf"  page7>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page7>
+[62]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page8>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page8>
+File: docs/translation.pdf Graphic file (type QTm)
+
+<use  "docs/translation.pdf"  page8> [63]
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page9>
+File: docs/translation.pdf Graphic file (type QTm)
+
+<use  "docs/translation.pdf"  page9>
+File: docs/translation.pdf Graphic file (type QTm)
+ <use  "docs/translation.pdf"  page9>
+[64]
 File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf" >
 File: docs/openingReport.pdf Graphic file (type QTm)
@@ -2459,7 +2484,7 @@ File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf"  page1>
 File: docs/openingReport.pdf Graphic file (type QTm)
 
-<use  "docs/openingReport.pdf"  page1> [49]
+<use  "docs/openingReport.pdf"  page1> [65]
 File: docs/openingReport.pdf Graphic file (type QTm)
 
 <use  "docs/openingReport.pdf"  page2>
@@ -2467,7 +2492,15 @@ File: docs/openingReport.pdf Graphic file (type QTm)
  <use  "docs/openingReport.pdf"  page2>
 File: docs/openingReport.pdf Graphic file (type QTm)
 
-<use  "docs/openingReport.pdf"  page2> [50]
+<use  "docs/openingReport.pdf"  page2> [66]
+File: docs/openingReport.pdf Graphic file (type QTm)
+
+<use  "docs/openingReport.pdf"  page3>
+File: docs/openingReport.pdf Graphic file (type QTm)
+ <use  "docs/openingReport.pdf"  page3>
+File: docs/openingReport.pdf Graphic file (type QTm)
+
+<use  "docs/openingReport.pdf"  page3> [67]
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf" >
 File: docs/interimReport.pdf Graphic file (type QTm)
@@ -2485,7 +2518,7 @@ File: docs/interimReport.pdf Graphic file (type QTm)
 <use  "docs/interimReport.pdf"  page1>
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page1>
-[51]
+[68]
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page2>
 File: docs/interimReport.pdf Graphic file (type QTm)
@@ -2493,15 +2526,23 @@ File: docs/interimReport.pdf Graphic file (type QTm)
 <use  "docs/interimReport.pdf"  page2>
 File: docs/interimReport.pdf Graphic file (type QTm)
  <use  "docs/interimReport.pdf"  page2>
-[52]
+[69]
+File: docs/interimReport.pdf Graphic file (type QTm)
+ <use  "docs/interimReport.pdf"  page3>
+File: docs/interimReport.pdf Graphic file (type QTm)
+
+<use  "docs/interimReport.pdf"  page3>
+File: docs/interimReport.pdf Graphic file (type QTm)
+ <use  "docs/interimReport.pdf"  page3>
+[70]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 740.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 740.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 972.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 972.
 (./wending.aux (./abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 740.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 740.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 972.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 972.
 
 
 LaTeX Warning: There were undefined references.
@@ -2509,20 +2550,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 740.
- )
-(\end occurred inside a group at level 2)
-
-### simple group (level 2) entered at line 198 ({)
-### simple group (level 1) entered at line 197 ({)
-### bottom level 
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 972.
+ ) 
 Here is how much of TeX's memory you used:
- 33313 strings out of 493005
- 617137 string characters out of 6141736
- 792349 words of memory out of 5000000
- 36775 multiletter control sequences out of 15000+600000
- 18876 words of font info for 124 fonts, out of 8000000 for 9000
+ 33150 strings out of 493005
+ 616448 string characters out of 6141736
+ 779962 words of memory out of 5000000
+ 36618 multiletter control sequences out of 15000+600000
+ 18828 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,19n,103p,10454b,1464s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,103p,10454b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on wending.pdf (62 pages).
+Output written on wending.pdf (78 pages).
