@@ -50,9 +50,9 @@ end
 % 差分方法
 %  z = laplace(LTdata, LAdata);
 % 小波差分
- z =wavelets(LTdata, LAdata);
+%  z =wavelets(LTdata, LAdata);
 % 小波方法
-% z =waveletlap(LTdata, LAdata);
+z =waveletlap(LTdata, LAdata);
 % LOF方法
 % z = lof(LTdata, LAdata);
 avg_data = avg_data / 21;

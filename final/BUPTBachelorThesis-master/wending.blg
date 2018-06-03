@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: wending.aux
+A level-1 auxiliary file: abstract.aux
+The style file: buptbachelor.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: ref.bib
+Warning--I didn't find a database entry for "KNNK"
+-- BUPTThesis.bst version 0.2 (2009/01/25) by Yu Zhang.
+-- http://code.google.com/p/buptthesis/
+-- See the "userguide.pdf" manual for usage information.
+Warning--there's a publisher but no address in 孙延奎2009小波分析及其工程应用
+Warning--The editor in breunig2000lof is missing.
+Warning--empty editor in breunig2000lof
+
+Done.
+You've used 6 entries,
+            4677 wiz_defined-function locations,
+            1064 strings with 8496 characters,
+and the built_in function-call counts, 3935 in all, are:
+= -- 456
+> -- 48
+< -- 5
++ -- 28
+- -- 14
+* -- 338
+:= -- 439
+add.period$ -- 26
+call.type$ -- 6
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 278
+empty$ -- 416
+format.name$ -- 14
+if$ -- 950
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 0
+newline$ -- 38
+num.names$ -- 6
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 96
+stack$ -- 0
+substring$ -- 494
+swap$ -- 69
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 65
+warning$ -- 3
+while$ -- 33
+width$ -- 7
+write$ -- 55
+(There were 4 warnings)
