@@ -23,45 +23,53 @@
 
 % 中文摘要
 \begin{titlepage}
+
+    \pagestyle{empty}
+
     \begin{spacing}{1.05}
         \centering
-        \parbox[c]{.6\textwidth}{\thesistitlefont{\thesistitle}}
+        \parbox[c]{.62\textwidth}{\thesistitlefont{\thesistitle}}
     \end{spacing}
 
-    \begin{spacing}{1.6}
+    \begin{spacing}{1.5}
         \centering
         \sanhao\quad{} \\ 
-        \abscnname{摘\quad{}要} \\ 
-        \xiaosanhao\quad{}
+        \abszhname{摘\quad{}要} \\ 
     \end{spacing}
-    
+    \xiaosanhao\quad{}
+
     \normalsize
 
-    \abstractcn
+    \abstractzh
+    
 
     \quad{}
 
-    \abscnkey{关键词}\quad{}%
-    \abscnkeys{\abscnkeyone\quad{}%
-                      \abscnkeytwo\quad{}%
-                      \abscnkeythree\quad{}%
-                      }%
+    \abszhkey{关键词}\quad{}%
+    \abszhkeys{\abszhkeyone\quad{}%
+                      \abszhkeytwo\quad{}%
+                      \abszhkeythree\quad{}%
+}%
 \end{titlepage}
+
+\thispagestyle{empty}
 
 % Abstract
 \begin{titlepage}
+
+    \pagestyle{empty}
+
     \begin{spacing}{1.05}
         \centering
-        \parbox[c]{.6\textwidth}{\thesistitleenfont{\thesistitleen}}
+        \parbox[c]{.62\textwidth}{\thesistitleenfont{\thesistitleen}}
     \end{spacing}
 
-    \begin{spacing}{1.6}
+    \begin{spacing}{1.5}
         \centering
         \sanhao\quad{} \\ 
-        \abscnname{ABSTRACT} \\ 
-        \xiaosanhao\quad{}
+        \abszhname{ABSTRACT} \\ 
     \end{spacing}
-
+    \xiaosanhao\quad{}
     \normalsize
 
     \abstracten
@@ -72,5 +80,7 @@
     \absenkeys{\absenkeyone\quad{}%
                       \absenkeytwo\quad{}%
                       \absenkeythree\quad{}%
-                      }%
+}%
 \end{titlepage}
+
+\thispagestyle{empty}

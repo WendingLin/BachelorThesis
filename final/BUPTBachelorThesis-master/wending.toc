@@ -14,10 +14,10 @@
 \contentsline {subsection}{\numberline {2.2.1}神经网络}{11}{subsection.2.2.1}
 \contentsline {chapter}{\numberline {3}定位数据}{12}{chapter.3}
 \contentsline {section}{\numberline {3.1}腾讯定位数据的形式}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}数据分析及应用}{13}{section.3.2}
+\contentsline {section}{\numberline {3.2}数据分析及应用}{12}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}数据的小时变化规律}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}数据的日变化规律}{14}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}数据的总时空特征}{16}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.2}数据的日变化规律}{15}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}数据的总时空特征}{15}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}数据预处理及异常分析策略}{16}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}数据预处理}{16}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}曲线异常分析策略}{17}{subsection.3.3.2}
@@ -31,26 +31,26 @@
 \contentsline {subsection}{\numberline {4.2.3}结果处理优化}{21}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}基于极大似然估计的异常检测算法}{22}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}极大似然估计与$3\sigma $准则}{22}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}结果分析}{23}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}结果分析}{22}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4}局部异常因子检测算法}{24}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}局部离群因子}{24}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}结果分析}{24}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}曲线异常检测算法总结}{25}{section.4.5}
-\contentsline {chapter}{\numberline {5}定位数据的预测分析}{27}{chapter.5}
+\contentsline {subsection}{\numberline {4.4.2}结果分析}{25}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}曲线异常检测算法总结}{26}{section.4.5}
+\contentsline {chapter}{\numberline {5}基于曲线的定位数据预测与异常检测}{27}{chapter.5}
 \contentsline {section}{\numberline {5.1}异常的检测与预测}{27}{section.5.1}
 \contentsline {section}{\numberline {5.2}基于神经网络的曲线定位数据预测}{28}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}神经网络分类}{28}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}定位数据预测}{29}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.2}定位数据预测}{30}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}分析结果}{30}{subsection.5.2.3}
 \contentsline {chapter}{\numberline {6}基于区域的定位数据异常检测}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}基于图像的异常区域检测}{33}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}相邻帧间差分法}{33}{subsection.6.1.1}
 \contentsline {subsection}{\numberline {6.1.2}高浮动区域检测}{33}{subsection.6.1.2}
-\contentsline {chapter}{\numberline {7}总结与展望}{36}{chapter.7}
-\contentsline {section}{\numberline {7.1}内容总结}{36}{section.7.1}
-\contentsline {section}{\numberline {7.2}未来展望}{37}{section.7.2}
-\contentsline {chapter}{参考文献}{38}{section*.37}
-\contentsline {chapter}{致\hskip 2em\relax {}谢}{39}{section*.39}
-\contentsline {chapter}{附\hskip 2em\relax {}录}{40}{section*.42}
-\contentsline {section}{附录1\hskip 1em\relax {}缩略语表}{40}{section*.43}
-\contentsline {section}{附录2\hskip 1em\relax {}数学符号}{40}{section*.46}
+\contentsline {chapter}{\numberline {7}总结与展望}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}内容总结}{37}{section.7.1}
+\contentsline {section}{\numberline {7.2}未来展望}{38}{section.7.2}
+\contentsline {chapter}{参考文献}{39}{section*.37}
+\contentsline {chapter}{致\hskip 2em\relax {}谢}{40}{section*.39}
+\contentsline {chapter}{附\hskip 2em\relax {}录}{41}{section*.42}
+\contentsline {section}{附录1\hskip 1em\relax {}缩略语表}{41}{section*.43}
+\contentsline {section}{附录2\hskip 1em\relax {}数学符号}{41}{section*.45}

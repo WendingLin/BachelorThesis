@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  3 JUN 2018 23:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.5.25)  8 JUN 2018 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1308,8 +1308,16 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layouthoffset=\dimen182
 \Gm@layoutvoffset=\dimen183
 \Gm@dimlist=\toks21
-)
-(s:/TEX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (455.24408pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (702.78297pt) is ignored.
+
+) (s:/TEX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \fancy@headwidth=\skip60
 \f@ncyO@elh=\skip61
@@ -1532,19 +1540,57 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip77
 \sf@bottom=\skip78
 )
+(s:/TEX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen259
+\extrarowheight=\dimen260
+\NC@list=\toks24
+\extratabsurround=\skip79
+\backup@length=\skip80
+)
+(s:/TEX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen261
+\lightrulewidth=\dimen262
+\cmidrulewidth=\dimen263
+\belowrulesep=\dimen264
+\belowbottomsep=\dimen265
+\aboverulesep=\dimen266
+\abovetopsep=\dimen267
+\cmidrulesep=\dimen268
+\cmidrulekern=\dimen269
+\defaultaddspace=\dimen270
+\@cmidla=\count181
+\@cmidlb=\count182
+\@aboverulesep=\dimen271
+\@belowrulesep=\dimen272
+\@thisruleclass=\count183
+\@lastruleclass=\count184
+\@thisrulewidth=\dimen273
+)
 (s:/TEX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip79
-\multirow@cntb=\count181
-\multirow@dima=\skip80
-\bigstrutjot=\dimen259
+\multirow@colwidth=\skip81
+\multirow@cntb=\count185
+\multirow@dima=\skip82
+\bigstrutjot=\dimen274
+)
+(s:/TEX/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen275
+\TX@old@table=\dimen276
+\TX@old@col=\dimen277
+\TX@target=\dimen278
+\TX@delta=\dimen279
+\TX@cols=\count186
+\TX@ftn=\toks25
 )
 (s:/TEX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (s:/TEX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks24
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -1560,7 +1606,7 @@ LaTeX Info: Redefining \bm on input line 207.
 )
 (s:/TEX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip81
+\@mathmargin=\skip83
 
 For additional information on amsmath, use the `?' option.
 (s:/TEX/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1568,80 +1614,72 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (s:/TEX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks25
-\ex@=\dimen260
+\@emptytoks=\toks27
+\ex@=\dimen280
 ))
 (s:/TEX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen261
+\pmbraise@=\dimen281
 )
 (s:/TEX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count182
+\inf@bad=\count187
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count183
-\leftroot@=\count184
+\uproot@=\count188
+\leftroot@=\count189
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count185
-\DOTSCASE@=\count186
+\classnum@=\count190
+\DOTSCASE@=\count191
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box60
 \strutbox@=\box61
-\big@size=\dimen262
+\big@size=\dimen282
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count187
-\c@MaxMatrixCols=\count188
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
 \dotsspace@=\muskip18
-\c@parentequation=\count189
-\dspbrk@lvl=\count190
-\tag@help=\toks26
-\row@=\count191
-\column@=\count192
-\maxfields@=\count193
-\andhelp@=\toks27
-\eqnshift@=\dimen263
-\alignsep@=\dimen264
-\tagshift@=\dimen265
-\tagwidth@=\dimen266
-\totwidth@=\dimen267
-\lineht@=\dimen268
-\@envbody=\toks28
-\multlinegap=\skip82
-\multlinetaggap=\skip83
-\mathdisplay@stack=\toks29
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks28
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks29
+\eqnshift@=\dimen283
+\alignsep@=\dimen284
+\tagshift@=\dimen285
+\tagwidth@=\dimen286
+\totwidth@=\dimen287
+\lineht@=\dimen288
+\@envbody=\toks30
+\multlinegap=\skip84
+\multlinetaggap=\skip85
+\mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
 (s:/TEX/texmf-dist/tex/latex/tools/delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-
-(s:/TEX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen269
-\extrarowheight=\dimen270
-\NC@list=\toks30
-\extratabsurround=\skip84
-\backup@length=\skip85
-))
+)
 (s:/TEX/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
 
 (s:/TEX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count194
-\calc@Bcount=\count195
-\calc@Adimen=\dimen271
-\calc@Bdimen=\dimen272
+\calc@Acount=\count199
+\calc@Bcount=\count266
+\calc@Adimen=\dimen289
+\calc@Bdimen=\dimen290
 \calc@Askip=\skip86
 \calc@Bskip=\skip87
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count196
+\calc@Ccount=\count267
 \calc@Cskip=\skip88
 )
 (s:/TEX/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -1651,22 +1689,22 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count197
-\l_MT_multwidth_dim=\dimen273
+\g_MT_multlinerow_int=\count268
+\l_MT_multwidth_dim=\dimen291
 \origjot=\skip89
-\l_MT_shortvdotswithinadjustabove_dim=\dimen274
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen275
-\l_MT_above_intertext_sep=\dimen276
-\l_MT_below_intertext_sep=\dimen277
-\l_MT_above_shortintertext_sep=\dimen278
-\l_MT_below_shortintertext_sep=\dimen279
+\l_MT_shortvdotswithinadjustabove_dim=\dimen292
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen293
+\l_MT_above_intertext_sep=\dimen294
+\l_MT_below_intertext_sep=\dimen295
+\l_MT_above_shortintertext_sep=\dimen296
+\l_MT_below_shortintertext_sep=\dimen297
 )
-\c@definition=\count198
-\c@theorem=\count199
-\c@axiom=\count266
-\c@lemma=\count267
-\c@proposition=\count268
-\c@corollary=\count269
+\c@definition=\count269
+\c@theorem=\count270
+\c@axiom=\count271
+\c@lemma=\count272
+\c@proposition=\count273
+\c@corollary=\count274
 
 (s:/TEX/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
@@ -1675,83 +1713,91 @@ nment
 
 (s:/TEX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count270
-\float@exts=\toks31
+\c@float@type=\count275
+\float@exts=\toks32
 \float@box=\box62
-\@float@everytoks=\toks32
+\@float@everytoks=\toks33
 \@floatcapt=\box63
 )
 (s:/TEX/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks33
-\c@algorithm=\count271
+\@float@every@algorithm=\toks34
+\c@algorithm=\count276
 )
 (s:/TEX/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count272
-\c@ALG@rem=\count273
-\c@ALG@nested=\count274
+\c@ALG@line=\count277
+\c@ALG@rem=\count278
+\c@ALG@nested=\count279
 \ALG@tlm=\skip90
 \ALG@thistlm=\skip91
-\c@ALG@Lnr=\count275
-\c@ALG@blocknr=\count276
-\c@ALG@storecount=\count277
-\c@ALG@tmpcounter=\count278
+\c@ALG@Lnr=\count280
+\c@ALG@blocknr=\count281
+\c@ALG@storecount=\count282
+\c@ALG@tmpcounter=\count283
 \ALG@tmplength=\skip92
 ) (s:/TEX/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (s:/TEX/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count279
+\lst@mode=\count284
 \lst@gtempboxa=\box64
-\lst@token=\toks34
-\lst@length=\count280
-\lst@currlwidth=\dimen280
-\lst@column=\count281
-\lst@pos=\count282
-\lst@lostspace=\dimen281
-\lst@width=\dimen282
-\lst@newlines=\count283
-\lst@lineno=\count284
-\lst@maxwidth=\dimen283
+\lst@token=\toks35
+\lst@length=\count285
+\lst@currlwidth=\dimen298
+\lst@column=\count286
+\lst@pos=\count287
+\lst@lostspace=\dimen299
+\lst@width=\dimen300
+\lst@newlines=\count288
+\lst@lineno=\count289
+\lst@maxwidth=\dimen301
 
 (s:/TEX/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count285
-\lst@skipnumbers=\count286
+\c@lstnumber=\count290
+\lst@skipnumbers=\count291
 \lst@framebox=\box65
 )
 (s:/TEX/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
-)
+
 (s:/TEX/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
 
 (s:/TEX/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 )
-\AM@pagewidth=\dimen284
-\AM@pageheight=\dimen285
+\AM@pagewidth=\dimen302
+\AM@pageheight=\dimen303
 
 (s:/TEX/texmf-dist/tex/latex/pdfpages/ppxetex.def
 File: ppxetex.def 2017/01/14 v0.5h Pdfpages driver for XeTeX (AM)
 )
 \AM@pagebox=\box66
-\AM@global@opts=\toks35
-\AM@toc@title=\toks36
-\c@AM@survey=\count287
+\AM@global@opts=\toks36
+\AM@toc@title=\toks37
+\c@AM@survey=\count292
 \AM@templatesizebox=\box67
+))
+(s:/TEX/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip93
+\enit@outerparindent=\dimen304
+\enit@toks=\toks38
+\enit@inbox=\box68
+\enitdp@description=\count293
 )
 (s:/TEX/texmf-dist/tex/xelatex/xecjk/xeCJK-listings.sty
 Package: xeCJK-listings 2017/05/15 v3.4.8 xeCJK patch file for listings
-\l__xeCJK_listings_max_char_int=\count288
-\l__xeCJK_listings_flag_int=\count289
+\l__xeCJK_listings_max_char_int=\count294
+\l__xeCJK_listings_flag_int=\count295
 ) (./wending.aux
 (./abstract.aux)
 
@@ -1917,11 +1963,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \textheight=702.78308pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-63.69102pt
+* \topmargin=-60.88905pt
 * \headheight=42.67912pt
-* \headsep=19.8738pt
+* \headsep=17.07182pt
 * \topskip=12.0pt
-* \footskip=42.67912pt
+* \footskip=14.22636pt
 * \marginparwidth=38.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
@@ -1935,7 +1981,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box68
+\AtBeginShipoutBox=\box69
 Package hyperref Info: Link coloring ON on input line 9.
 (s:/TEX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1943,7 +1989,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (s:/TEX/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count290
+\c@section@level=\count296
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -1958,7 +2004,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count291
+\c@lstlisting=\count297
  (s:/TEX/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -2043,7 +2089,7 @@ File: docs/statement.pdf Graphic file (type QTm)
 \openout2 = `abstract.aux'.
 
  (./abstract.tex (./abstract.cfg)
-\g__fontspec_family_SimHei_int=\count292
+\g__fontspec_family_SimHei_int=\count298
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2073,12 +2119,12 @@ File: docs/statement.pdf Graphic file (type QTm)
 . <->"SimHei/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
 
 (s:/TEX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
 
 (s:/TEX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -2100,7 +2146,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 Chapter 1.
 File: pictures/1didi1.jpg Graphic file (type QTm)
 <use  "pictures/1didi1.jpg" >
-\g__fontspec_family_KaiTi_int=\count293
+\g__fontspec_family_KaiTi_int=\count299
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2168,20 +2214,19 @@ File: pictures/3week.jpg Graphic file (type QTm)
  <use  "pictures/3week.jpg" >
 File: pictures/3normaltyp.jpg Graphic file (type QTm)
 
-<use  "pictures/3normaltyp.jpg" >
+<use  "pictures/3normaltyp.jpg" > [14]
 File: pictures/3totalpart.jpg Graphic file (type QTm)
  <use  "pictures/3totalpart.jpg" >
 
-LaTeX Warning: Reference `3allday' on page 14 undefined on input line 318.
+LaTeX Warning: Reference `3allday' on page 15 undefined on input line 318.
 
-[14] [15]
 File: pictures/3total.jpg Graphic file (type QTm)
- <use  "pictures/3total.jpg" > [16]
+<use  "pictures/3total.jpg" > [15]
 File: pictures/3pre.jpg Graphic file (type QTm)
- <use  "pictures/3pre.jpg" >
-[17]
+ <use  "pictures/3pre.jpg" > [16]
 File: pictures/3proce.jpg Graphic file (type QTm)
- <use  "pictures/3proce.jpg" > [18]
+
+<use  "pictures/3proce.jpg" > [17] [18]
 Chapter 4.
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
 put line 353.
@@ -2200,9 +2245,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 407--408
 m/b/it/12.045 x \OT1/cmr/m/n/12.045 =
  []
 
-[20]
 File: pictures/4wave.jpg Graphic file (type QTm)
- <use  "pictures/4wave.jpg" > [21]
+<use  "pictures/4wave.jpg" > [20] [21]
 File: pictures/4wavelet.jpg Graphic file (type QTm)
  <use  "pictures/4wavelet.jpg" >
 
@@ -2223,26 +2267,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--441
 m/b/it/12.045 x \OT1/cmr/m/n/12.045 =
  []
 
-[22]
 File: pictures/4like.jpg Graphic file (type QTm)
- <use  "pictures/4like.jpg" > [23]
-
-Package natbib Warning: Citation `breunig2000lof' on page 24 undefined on input
- line 465.
-
-
+<use  "pictures/4like.jpg" > [22] [23] [24]
 Underfull \hbox (badness 10000) in paragraph at lines 487--488
 []\TU/SimSun(0)/m/n/12.045 有 效 单 个 定 位 数 据 点 上 的 日 期 平 均 时 序 定 位 数 据 值 $\OML/cm
 m/b/it/12.045 x \OT1/cmr/m/n/12.045 =
  []
 
 File: pictures/4LOF.jpg Graphic file (type QTm)
-<use  "pictures/4LOF.jpg" > [24]
-
-Package natbib Warning: Citation `KNNK' on page 25 undefined on input line 501.
-
-
-[25]
+<use  "pictures/4LOF.jpg" > [25]
 File: pictures/4spec.jpg Graphic file (type QTm)
  <use  "pictures/4spec.jpg" > [26]
 Chapter 5.
@@ -2251,10 +2284,10 @@ File: pictures/5proce.jpg Graphic file (type QTm)
 
 ]
 File: pictures/5CNN.jpg Graphic file (type QTm)
- <use  "pictures/5CNN.jpg" > [28]
+ <use  "pictures/5CNN.jpg" >
 File: pictures/5RNN.jpg Graphic file (type QTm)
 
-<use  "pictures/5RNN.jpg" > [29]
+<use  "pictures/5RNN.jpg" > [28] [29]
 File: pictures/5MAT.jpg Graphic file (type QTm)
  <use  "pictures/5MAT.jpg" >
 File: pictures/5network.jpg Graphic file (type QTm)
@@ -2267,9 +2300,9 @@ n(0)/m/n/12.045 日 同 时 刻 的 定 位 数 据 值
  []
 
 File: pictures/5error.jpg Graphic file (type QTm)
-<use  "pictures/5error.jpg" > [30]
+<use  "pictures/5error.jpg" > [30] [31]
 File: pictures/5typ.jpg Graphic file (type QTm)
- <use  "pictures/5typ.jpg" > [31] [32]
+ <use  "pictures/5typ.jpg" > [32]
 Chapter 6.
 File: pictures/6lap1.jpg Graphic file (type QTm)
 <use  "pictures/6lap1.jpg" >
@@ -2287,54 +2320,35 @@ File: pictures/6errorwithout.jpg Graphic file (type QTm)
 <use  "pictures/6errorwithout.jpg" >
 File: pictures/6error.jpg Graphic file (type QTm)
  <use  "pictures/6error.jpg" > [34]
-[35]
+[35] [36]
 Chapter 7.
-[36
+[37
 
-] [37] (./wending.bbl) [38
+] [38] (./wending.bbl) [39
 
 
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 21.07874pt
-(hyperref)                replaced by space on input line 658.
-
-[39
+] [40
 
 
 ]
+Overfull \hbox (27.22086pt too wide) in paragraph at lines 679--685
+ [][] 
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 24.09pt
-(hyperref)                replaced by space on input line 671.
+[41
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 674.
-
-File: pictures/autoencoder.png Graphic file (type QTm)
-<use  "pictures/autoencoder.png" >
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.045pt
-(hyperref)                replaced by space on input line 696.
-
-[40
-
-] [41] [42
+] [42
 
 
 ]
 File: pictures/f1.jpg Graphic file (type QTm)
  <use  "pictures/f1.jpg" > [43] [44] [45] [46]
-Overfull \hbox (5.78122pt too wide) in paragraph at lines 834--847
+Overfull \hbox (5.78122pt too wide) in paragraph at lines 826--839
  [][] 
  []
 
 
-LaTeX Warning: Reference `42' on page 47 undefined on input line 851.
+LaTeX Warning: Reference `42' on page 47 undefined on input line 843.
 
 [47]
 File: pictures/f2.jpg Graphic file (type QTm)
@@ -2345,17 +2359,17 @@ File: pictures/f4.jpg Graphic file (type QTm)
 
 <use  "pictures/f4.jpg" >
 
-LaTeX Warning: Reference `t4' on page 50 undefined on input line 903.
+LaTeX Warning: Reference `t4' on page 50 undefined on input line 895.
 
 
-Overfull \hbox (44.73335pt too wide) in paragraph at lines 906--918
+Overfull \hbox (44.73335pt too wide) in paragraph at lines 898--910
  [][] 
  []
 
 File: pictures/f5.jpg Graphic file (type QTm)
-<use  "pictures/f5.jpg" > [50] [51]
+<use  "pictures/f5.jpg" > [50]
 File: pictures/f6.jpg Graphic file (type QTm)
- <use  "pictures/f6.jpg" > [52]
+ <use  "pictures/f6.jpg" > [51] [52]
 File: docs/translation.pdf Graphic file (type QTm)
 
 <use  "docs/translation.pdf" >
@@ -2511,19 +2525,11 @@ File: docs/interimReport.pdf Graphic file (type QTm)
 File: docs/interimReport.pdf Graphic file (type QTm)
 
 <use  "docs/interimReport.pdf"  page3> [68]
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 969.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 969.
-(./wending.aux (./abstract.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 969.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 969.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 961.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 961.
+ (./wending.aux (./abstract.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 961.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 961.
 
 
 LaTeX Warning: There were undefined references.
@@ -2531,15 +2537,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 969.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 961.
  ) 
 Here is how much of TeX's memory you used:
- 33097 strings out of 493005
- 612707 string characters out of 6141736
- 780657 words of memory out of 5000000
- 36559 multiletter control sequences out of 15000+600000
+ 33567 strings out of 493005
+ 622243 string characters out of 6141736
+ 788356 words of memory out of 5000000
+ 37019 multiletter control sequences out of 15000+600000
  19992 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 64i,19n,103p,10454b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,19n,103p,10454b,789s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on wending.pdf (76 pages).

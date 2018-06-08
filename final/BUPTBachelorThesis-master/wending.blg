@@ -6,54 +6,104 @@ The style file: buptbachelor.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: ref.bib
-Warning--I didn't find a database entry for "KNNK"
+I was expecting a `,' or a `}'---line 174 of file ref.bib
+ :   
+ :   language={Chinese}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 182 of file ref.bib
+ :   
+ :   language={Chinese}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "杨营辉2010基于密度的样本裁剪算法的改进及在" isn't style-file defined
+--line 184 of file ref.bib
+I was expecting a `,' or a `}'---line 189 of file ref.bib
+ :   
+ :   language={Chinese}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 -- BUPTThesis.bst version 0.2 (2009/01/25) by Yu Zhang.
 -- http://code.google.com/p/buptthesis/
 -- See the "userguide.pdf" manual for usage information.
 Warning--there's a publisher but no address in 孙延奎2009小波分析及其工程应用
-Warning--The editor in breunig2000lof is missing.
-Warning--empty editor in breunig2000lof
+"Chinese" is a string literal, `language' is a missing field
+---they aren't the same literal types for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+1 is an integer literal, "基于小波的时间序列中异常点的检测 [D]" is a string literal
+---they aren't the same literal types for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+0 is an integer literal, not a function, for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+You can't pop an empty literal stack for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+You can't pop an empty literal stack for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+Warning--empty title in 庄雪鹏2013基于小波的时间序列中异常点的检测
+Warning--there's a school but no address in 庄雪鹏2013基于小波的时间序列中异常点的检测
+You can't pop an empty literal stack for entry 庄雪鹏2013基于小波的时间序列中异常点的检测
+while executing---line 2588 of file buptbachelor.bst
+Warning--empty pages in 杨营辉2010基于密度的样本裁剪算法的改进及在
+Warning--there's a publisher but no address in 布罗克韦尔2001时间序列的理论与方法
+Warning--empty pages in keogh2004data
+"Chinese" is a string literal, `language' is a missing field
+---they aren't the same literal types for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+1 is an integer literal, "基于 Online SVR 的在线时间序列预测方法及其应用研究" is a string literal
+---they aren't the same literal types for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+0 is an integer literal, not a function, for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+You can't pop an empty literal stack for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+You can't pop an empty literal stack for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+Warning--empty title in 刘大同2010基于
+Warning--there's a school but no address in 刘大同2010基于
+You can't pop an empty literal stack for entry 刘大同2010基于
+while executing---line 2588 of file buptbachelor.bst
+Warning--empty pages in medsker2001recurrent
 
 Done.
-You've used 6 entries,
-            4677 wiz_defined-function locations,
-            1064 strings with 8496 characters,
-and the built_in function-call counts, 3935 in all, are:
-= -- 456
-> -- 48
-< -- 5
-+ -- 28
-- -- 14
-* -- 338
-:= -- 439
-add.period$ -- 26
-call.type$ -- 6
+You've used 18 entries,
+            4699 wiz_defined-function locations,
+            1136 strings with 10202 characters,
+and the built_in function-call counts, 9656 in all, are:
+= -- 1139
+> -- 135
+< -- 11
++ -- 78
+- -- 39
+* -- 789
+:= -- 1066
+add.period$ -- 77
+call.type$ -- 18
 change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 278
-empty$ -- 416
-format.name$ -- 14
-if$ -- 950
+cite$ -- 27
+duplicate$ -- 639
+empty$ -- 1020
+format.name$ -- 39
+if$ -- 2353
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 18
 missing$ -- 0
-newline$ -- 38
-num.names$ -- 6
-pop$ -- 23
+newline$ -- 105
+num.names$ -- 18
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 96
+skip$ -- 260
 stack$ -- 0
-substring$ -- 494
-swap$ -- 69
-text.length$ -- 5
+substring$ -- 1106
+swap$ -- 178
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 65
-warning$ -- 3
-while$ -- 33
-width$ -- 7
-write$ -- 55
-(There were 4 warnings)
+type$ -- 195
+warning$ -- 9
+while$ -- 88
+width$ -- 20
+write$ -- 151
+(There were 15 error messages)
